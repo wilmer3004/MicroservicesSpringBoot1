@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+Spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5431/ms_inventory
+    username: uncladave
+    password: Test123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
